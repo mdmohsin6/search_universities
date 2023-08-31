@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: bisque; */
+    margin-top: 20px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.text{
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    justify-content: space-between;
+}
+.text h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 0;
+    /* margin-left: 350px; */
+}
+.linkedin{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-start;
+    /* color: black; */
+    margin: 5px;
+}
+.github {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    margin: 5px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self:flex-start ;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:#f8f8fd;
+    height: 55px;
+    box-shadow: 2px 0px 15px 1px rgba(0,0,0,0.75);
+}
+.input {
+    width: 430px;
+    padding: 2px;
+    font-size: bold;
+   
+}
+.search-btn {
+    margin: 5px;
+    color: white;
+    background-color: #0e6ed4;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    align-items: center;
+    width: 100%;
+    width: 90px;
+}
+.search-icon {
+    color: white;
+    border: none;
+    padding: 4px;
+    background-color: #29343b;
+    border-top-right-radius: 0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius : 5px;
+    border-top-left-radius : 5px;
+    cursor: pointer;
+    padding-left:10px;
+    padding-right:10px;
+}
+.lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: #6f797f;
+    margin: 0px;
+    margin-left: auto 50px;
+    margin-right: auto 50px;
+    border-radius: 10px;
+    
+}
+ol li {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-width: 100%;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding: 5px;
+    background-color: #f6f6f6;
+    font-size: bold;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Media queries */
+
+@media (max-width: 600px) {
+    .input {
+        width: 100%;
+        padding: 2px;
+        font-size: bold;
+    }
+    
+}
+@media (max-width:442px) {
+    .text h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: 0;
+        
+    }
+    
+}
+@media (max-width:398px) {
+    .linkedin {
+        display: none;
+    }
+    
+}
+@media (max-width:366px) {
+    .github {
+        display: none;
+    }
+    
+}
